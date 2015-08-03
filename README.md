@@ -15,6 +15,10 @@ Attributes are dependent on the included cookbooks:
 
 ## Usage
 
+ - Clone this repository down to your workstation. 
+ - Clone the workflow apache support cookbook.
+ - Edit the Berksfile file and adjust to the location of wofklow_apache_support.
+
 ### workflow::default
 
 Include `workflow` in your node's `run_list`:

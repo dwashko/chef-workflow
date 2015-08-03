@@ -1,3 +1,7 @@
+0.4.0
+-----
+- [daniel washko] - Added documentation on usage
+
 0.3.0
 -----
 - [daniel washko] - serverspec rules and kitchen work
