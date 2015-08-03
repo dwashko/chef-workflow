@@ -18,6 +18,19 @@ Attributes are dependent on the included cookbooks:
  - Clone this repository down to your workstation. 
  - Clone the workflow apache support cookbook.
  - Edit the Berksfile file and adjust to the location of wofklow_apache_support.
+ -- ex: 
+
+ source 'https://gdp-chef-supermarket.gannettdigital.com'
+
+ metadata
+
+ cookbook 'workflow_apache_support', path: '/Users/dwashko/test/chef-workflow_apache_support'
+
+ - Execute kitchen:
+ -- kitchen create - creates vm
+ -- kitchen converge - provisions vm
+ -- kitchen verify - runs serverspec testing
+ -- kitchen destory - destorys vm
 
 ### workflow::default
 

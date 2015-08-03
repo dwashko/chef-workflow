@@ -1,3 +1,6 @@
+0.5.0
+-----
+- [daniel washko] - disabling selinux
 0.4.0
 -----
 - [daniel washko] - Added documentation on usage
