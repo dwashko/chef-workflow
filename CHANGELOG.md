@@ -1,3 +1,7 @@
+0.6.0
+-----
+- [daniel washko] - Changes to docroot and disk creation in workflow_apache_support required changes to attributes and recipes along with testing.
+
 0.5.0
 -----
 - [daniel washko] - disabling selinux
