@@ -6,6 +6,8 @@ description      'workflow role cookbook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.6.0'
 
+depends 'yum-gmti'
+depends 'gdp-base-linux'
 depends 'workflow_apache_support'
 depends 'apache2'
 depends 'selinux'
