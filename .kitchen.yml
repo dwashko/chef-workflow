@@ -10,7 +10,7 @@ provisioner:
   name: chef_zero
 
 platforms:
- - name: centos66-cloud-1.8
+ - name: centos-6.6
 
 suites:
   - name: default 
